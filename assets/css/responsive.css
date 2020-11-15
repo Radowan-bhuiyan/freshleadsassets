@@ -1,0 +1,334 @@
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   
+
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width:992px) and (max-width:1100px) {
+ 
+}
+
+  
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+ nav li a{
+ 	margin: 15px 0px;
+    display: block;
+ } 
+ button.button {
+    margin: 16px;
+}
+button.owl-next {
+    position: absolute;
+    left: 180px;
+}
+.qualified-bg h2 {
+  
+    font-size: 45px;
+   
+}
+.ready{
+  
+  text-align: center;
+}
+
+.money img {
+    width: 100%;
+}
+.ready h2 {
+  
+    font-size: 30px;
+    padding: 0px 24px;
+  
+}
+.join {
+
+    height: 350px;
+     background-size:cover; 
+}
+.plan {
+    
+    background-size: 100% 100%;
+    background-position: center center;
+}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .lead-text h1 {
+        font-family: Averta-bold;
+        font-size: 1.5em;
+    }
+
+    .lead-text p{
+        font-size: 14px;
+        margin: 9px 0px;
+        line-height: 1.5;
+        position: relative;
+        z-index: 999;
+    }
+
+    .btn-learn-more,
+    .button-apply-now {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    body{
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+
+      nav ul li{
+        margin: 15px 0px;
+        display: block;
+     } 
+    .navbar nav ul li{
+        display: block !important;
+    }
+
+    .section-padding {
+        padding: 20px 0px 90px;
+    }
+
+    .lead-text {
+        z-index: 99;
+        position: relative;
+    }
+
+    .lead-right-img::after {
+        z-index: 1;
+        width: 113%;
+        height: 190%;
+    }
+
+    ul.client-logo li {
+        padding: 20px 5px;
+    }
+
+
+    .prospects {
+        text-align: center;
+    }
+
+    .col-rev{
+        flex-direction: column-reverse;
+    }
+
+    .j-s{
+        justify-content: center;
+    }
+
+    .expect .img1,
+    .expect .img2,
+    .expect .img {
+        background-position: center;
+    }
+
+    .expect-single{
+        margin-bottom: 30px;
+    }
+
+    .single-pricing-box{
+        padding:70px 0px 10px;
+            margin-bottom: 40px;
+    }
+
+    .single-pricing-box.middle{
+        top: 0px;
+    }
+
+    .pricing-list {
+        padding: 15px 25px 5px;
+    }
+
+    .money img {
+        width: 65%;
+        margin: 0px auto 10px;
+    }
+
+    .money-text h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .ready h2 {
+      
+        font-size: 14px;
+        padding: 0px 0px;
+      
+    }
+
+    .read-testimonaial button {
+        padding: 5px 25px 5px 25px;
+    }
+
+    .join {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer a{
+        justify-content: center;
+            margin-bottom: 5px;
+    }
+
+    .footer p{
+        padding:0;
+        text-align: center;width: 100%;
+    }
+
+    .footer-bottom p {
+        margin-left: 0px;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 479px) and (max-width: 767px) {
+      nav ul li{
+     	margin: 15px 0px;
+        display: block;
+     } 
+     nav button.button {
+        margin-top: 0px
+        margin-left: 0px
+    }
+
+    .owl-theme .owl-nav {
+        position: absolute;
+        top: 37%;
+        left: 0%;
+        -webkit-tap-highlight-color: transparent;
+        text-align: center;
+    }
+
+    button.owl-next {
+        position: absolute;
+        left: 350px;
+    }
+    .testimonials {
+       
+        background-size: 100% 100%;
+        background-position: center;
+       }
+       .plan {
+        
+        background-size: 100% 100%;
+        background-position: center center;
+    }
+
+    .ready{
+      
+      text-align: center;
+    }
+    .join {
+
+         background-size:cover; 
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:692px) {
+     button.owl-next {
+        position: absolute;
+        left: 350px;
+    }
+    .row.justify-content-center.clients::before {
+
+        width: 67px;
+        height: 67px;
+        right: -36%;
+
+    }
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+     h1{
+        font-size: 30px;
+     }     h2{
+        font-size: 25px;
+     }
+     button.owl-next {
+        left: 200px;
+    }     
+    button.owl-prev {
+        right: 200px;
+    }
+
+    .owl-theme .owl-nav {
+        top: 3%;
+        left: 10%;
+    }
+
+    .btn-apply-now {
+        z-index: 999;
+        position: relative;
+    }
+
+    .plan {
+        padding: 0 0px 0px 0px;
+    }
+
+    .prospects-text h2 {
+        margin-bottom: 5px;
+    }
+
+    .prospects-text p {
+        font-size: 14px;
+    }
+
+    .expect h1,
+    .qualified-area h1 {
+        font-size: 1.5em;
+    }
+
+    .lead-text p, .expect-text p {
+        font-size: 13px;
+        margin: 8px 0px;
+    }
+
+    .footer-bottom-btn,
+    .read-testimonaial {
+        display: block;
+        text-align: center;
+    }
+    .read-testimonaial button{
+        padding: 0px 25px 0px 25px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .footer-bottom{
+        height: auto;
+    }
+
+    .footer-bottom p{
+        padding:0;
+        text-align:center;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 35px 30px 115px !important;
+    }
+}

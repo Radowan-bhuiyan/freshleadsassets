@@ -1,0 +1,863 @@
+/*==========================================================
+    
+    CSS INDEX
+    ===================
+  
+  1. Theme Default CSS
+  2. Menu Area
+  3. Social Area
+  4. Company Area
+  9. Testimonial
+  11. Contact Area
+  12. Footer Area
+
+
+==========================================================*/
+
+
+/* Font Face */
+
+@font-face {
+    font-family: 'Averta-blck';
+    src: url('../fonts/Averta-blck.otf');
+}
+
+@font-face {
+    font-family: 'Averta-blckitalic';
+    src: url('../fonts/Averta-blckitalic.otf');
+}
+
+@font-face {
+    font-family: 'Averta-bold';
+    src: url('../fonts/Averta-bold.otf');
+}
+
+@font-face {
+    font-family: 'Averta-bolditalic';
+    src: url('../fonts/Averta-bolditalic.otf');
+}
+
+@font-face {
+    font-family: 'Averta-extrabold';
+    src: url('../fonts/Averta-extrabold.otf');
+}
+
+@font-face {
+    font-family: 'Averta-extrabolditalic';
+    src: url('../fonts/Averta-extrabolditalic.otf');
+}
+
+@font-face {
+    font-family: 'Averta-extrathin';
+    src: url('../fonts/Averta-extrathin.otf');
+}
+
+@font-face {
+    font-family: 'Averta-extrathinitalic';
+    src: url('../fonts/Averta-extrathinitalic.otf');
+}
+
+@font-face {
+    font-family: 'Averta-light';
+    src: url('../fonts/Averta-light.otf');
+}
+
+@font-face {
+    font-family: 'Averta-lightitalic';
+    src: url('../fonts/Averta-lightitalic.otf');
+}
+
+@font-face {
+    font-family: 'Averta-regular';
+    src: url('../fonts/Averta-regular.otf');
+}
+
+@font-face {
+    font-family: 'Averta-regularitalic';
+    src: url('../fonts/Averta-regularitalic.otf');
+}
+
+@font-face {
+    font-family: 'Averta-semibold';
+    src: url('../fonts/Averta-semibold.otf');
+}
+
+@font-face {
+    font-family: 'Averta-semibolditalic';
+    src: url('../fonts/Averta-semibolditalic.otf');
+}
+
+/*  1. Theme Default CSS
+/*----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    line-height: 24px;
+    color: #000;
+    background-color: #ffffff;
+        overflow: hidden;
+        overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #525274;
+    line-height: 1.1;
+    font-family: Averta-bold;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+p {
+    font-family: Averta-Light;
+    font-size: 19px;
+}
+
+input,
+select,
+textarea {}
+
+a:focus,
+button:focus {
+    outline: medium none;
+    transform: scale(1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hero-bg.row.justify-content-center {
+    align-items: center;
+}
+
+
+/*----------------------------------------*/
+
+
+/*  2. Menu Area
+/*----------------------------------------*/
+
+
+/*
+* Developer: codeshpaer.net;
+*/
+
+
+/*--------------
+* Homepage content
+*/
+
+
+/*header area*/
+
+h1 {
+    font-family: Averta-extrabold;
+    font-weight: 900;
+    font-size: 51px;
+}
+
+h2 {
+    font-family: Averta-bold;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navbar{
+    padding: 30px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav li a {
+    position: relative;
+}
+
+nav li a {
+    font-family: Averta-semibold;
+    font-size: 15px;
+    color: #525274;
+    font-weight: 500;
+}
+
+nav li a::after {
+    display: block;
+    height: 3px;
+    position: absolute;
+    content: '';
+    transition: all 0.35s ease;
+    background-color: #76E9A1;
+    width: 0;
+}
+
+nav li a:hover,
+nav li a.active {
+    color: #000;
+}
+
+nav li a.active::after {
+    width: 100%;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.section-padding {
+    padding: 90px 0px;
+}
+
+.button {
+    font-family: Averta-extrabold;
+    padding: 5px 35px 5px 35px;
+    border: 1.5px solid #d3d1d1;
+    border-radius: 27px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #525274;
+    text-align: center;
+    line-height: 2;
+}
+
+.lead-text {
+    overflow: hidden;
+    align-items: center;
+}
+
+.lead-text h1 {
+    font-family: Averta-bold;
+    font-size: 3em;
+    color: #525274;
+    line-height: 1em;
+}
+
+.lead-text p,
+.expect-text p {
+    font-family: Averta-Light;
+    font-size: 18px;
+    margin: 50px 0px;
+    line-height: 1.5;
+    color: #525274;
+}
+.button-apply-now {
+    background: #76E9A1;
+    color: white;
+    border: none;
+    box-shadow: 0px 9px 12px #76e9a1a1;
+    padding: 15px 40px;
+    line-height: 3;
+    border-radius: 30px;
+    font-family: Averta-extrabold;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+.btn-learn-more{
+    color: #525274;
+    padding: 15px 40px;
+    line-height: 3;
+    border-radius: 30px;
+    font-family: Averta-extrabold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 1.5px solid #d3d1d1;
+}
+
+.client h5 {
+    font-family: Averta-bold;
+    font-size: 1em;
+}
+
+ul.client-logo li {
+    display: inline-block;
+    padding: 40px 30px;
+}
+
+.right-bg {
+    position: relative;
+    width: 100%;
+    background: url(../img/Fill-3.png) no-repeat;
+    background-size: contain;
+    padding: 94px 65px 82px 20px;
+}
+
+.left-bg {
+    position: relative;
+    width: 100%;
+    background: url(../img/Fill-8.png) no-repeat;
+    padding: 68px 65px 82px 20px;
+    background-size: contain;
+}
+
+.right-bg1 {
+    position: relative;
+    width: 100%;
+    background: url(../img/Fill-5.png) no-repeat;
+    background-size: contain;
+    padding: 28px 104px 113px 35px
+}
+
+.left-bg1 {
+    position: relative;
+    width: 100%;
+    background: url(../img/Fill-11.png) no-repeat;
+    background-size: contain;
+    padding: 56px 46px 54px 0px;
+}
+
+.hero-bg {
+    padding: 49px 0px 95px;
+}
+
+.lead-right-img{
+    position: relative;
+}
+
+.lead-right-img img{
+    position: relative;
+    z-index: 2;
+}
+
+.lead-right-img::after{
+    position: absolute;
+    content: '';
+    left: -50px;
+    top: -140px;
+    background: url(../img/Fill1.png);
+    z-index: 1;
+    width: 135%;
+    height: 220%;
+
+}
+
+
+
+
+.qualified-bg{
+    position: relative;
+}
+
+
+.qualified-bg:before{
+    position: absolute;
+    content: url(../img/qualified-bg.png);
+    top: 90px;
+    left: 53%;
+}
+
+.qualified-bg .container{
+    position: relative;
+}
+.qualified-bg .container:after {
+    position: absolute;
+    content: url(../img/circle_round.png);
+    height: 194px;
+    width: 160px;
+    bottom: -100px;
+    left: 0px;
+}
+
+section span.border {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: #76E9A1;
+    border-radius: 0;
+    margin-bottom: 25px;
+        border: 0px solid transparent !important;
+}
+
+.qualified-bg h2 {
+    font-family: Averta-bold;
+    font-size: 50px;
+    font-weight: 700;
+    color: #76E9A1;
+}
+
+.qualified-bg h6 {
+    font-family: Averta-bold;
+    font-size: 18px;
+    color: #292A34;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.qualified-bg p {
+    font-size: 14px;
+}
+
+.qualified-bg .button.button-bg {
+    background: #76E9A1 !important;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+    top: 32%;
+    left: 30%;
+    -webkit-tap-highlight-color: transparent;
+    text-align: center;
+}
+
+.owl-theme .owl-nav span {
+    font-size: 40px;
+    line-height: 0.5;
+}
+
+button.owl-next {
+    position: absolute;
+    left: 300px;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+    background: #76E9A1;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.expect .img {
+    position: relative;
+    width: 100%;
+    background: url(../img/month01.jpg) no-repeat;
+    background-size: contain;
+    padding: 23px 55px 83px 26px;
+}
+
+.expect .img1 {
+    background: url(../img/month1.jpg) no-repeat;
+    padding: 23px 55px 83px 56px;
+}
+
+.expect .img2 {
+    background: url(../img/month2.jpg) no-repeat;
+    padding: 23px 55px 83px 56px;
+}
+
+.expect-text {
+    margin-bottom: 65px;
+}
+
+.expect .img2 img ,
+.expect .img1 img ,
+.expect .img img {
+    position: relative;
+    top: 25px;
+    left: -5px;
+}
+.expect .img1 img {
+    left: 10px;
+}
+.expect .im2 img {
+    left: 10px;
+}
+.single-pricing-box {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    transition: .3s;
+    background-color: white;
+    margin: 120px 0px;
+    color: #000 !important;
+    border-radius: 5px;
+    box-shadow: 0px 0px 62px rgba(202, 199, 199, 0.28);
+}
+
+.money-text h2 {
+    margin-bottom: 20px;
+}
+
+.money-text p {
+    color: #7B7B95;
+    line-height: 28px;
+}
+
+.testimonials-img img {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    left: 35%;
+    top: -23%;
+    /*box-shadow: 0px 13px 25px #F6F6F6;*/
+    box-shadow: 0px 5px 22px #F6F6F6;
+}
+
+.pricing-list {
+    padding: 85px 25px 50px;
+    position: relative;
+    z-index: 999;
+}
+
+.pricing-list>p {
+    font-size: 14px;
+    margin-bottom: 40px;
+    color: #8E8E94;
+}
+
+
+
+.pricing-list h4 {
+    font-size: 18px;
+    color: #000;
+}
+.pricing-list h6 {
+    font-size: 14px;
+    color: #878F9D;
+    font-family: Averta-Light;
+        margin-bottom: 2px;
+}
+
+.pricing-list a {
+    font-family: Averta-bold;
+    font-size: 15px;
+}
+
+.testimonials {
+    position: relative;
+    background: url(../img/Fill-1.png) no-repeat;
+    background-size: 84% 84%;
+    padding: 62px 0px 78px 0px;
+    background-position: 100px 35px;
+}
+
+.row.justify-content-center.clients::before {
+    position: relative;
+    content: ' ';
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F8F9FD;
+    z-index: -999;
+    right: -44%;
+    bottom: -190px;
+}
+
+.testimonials::before {
+    position: absolute;
+    top: -29px;
+    left: 14%;
+    content: ' ';
+    background: url(../img/Combined.png) no-repeat;
+    width: 80px;
+    background-size: contain;
+    padding: 62px 0px 78px 0px;
+}
+
+.testimonials::after {
+    position: absolute;
+    bottom: 17%;
+    left: -3%;
+    content: ' ';
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F8F9FD;
+    z-index: -999;
+}
+
+.pricing-box {
+    position: relative;
+}
+/*
+.pricing-box:hover {
+    width: 100%;
+    background-color: white;
+    transition: .3s;
+}*/
+
+.pricing-box.middle {
+    background: #fff;
+    box-shadow: 0px 0px 62px rgba(202, 199, 199, 0.28);
+    border-radius: 5px;
+}
+
+.pricing-text {
+    padding: 50px 0px;
+}
+
+.pricing-text h6 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.pricing-text h1 {
+    font-size: 50px;
+    color: #525274;
+    margin-bottom: 25px;
+}
+
+.pricing-box li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.pricing-box h1 span {
+    font-size: 20px;
+    position: relative;
+    left: -5px;
+}
+
+.pricing-box h1 span:nth-child(2) {
+    color: #9EA4AF;
+    font-family: Averta-Light;
+}
+
+.pricing-box li span,
+h6 {
+    /*    font-size: 20px*/
+    ;
+    color: #62ABFF;
+}
+
+.plan {
+    width: 100%;
+    background: url(../img/Fill-3.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding: 100px 0px 124px 0px;
+}
+
+.money img {
+    width: 80%;
+}
+
+.ready h2 {
+    display: inline-block;
+    font-size: 32px;
+    padding: 35px 30px;
+    color: white;
+}
+
+.read-testimonaial{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-btn,
+.read-testimonaial button{
+    font-family: Averta-extrabold;
+    padding: 5px 40px 5px 40px;
+    border: 1.5px solid #d3d1d1;
+    border-radius: 27px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #525274;
+    text-align: center;
+    line-height: 2;
+    height: 50px;
+    background: #76E9A1;
+    border: none;
+    color: #fff;
+}
+
+
+.ready {
+    background: #1C2C4C;
+        border-radius: 6px;
+}
+
+.faq .card {
+    border: none !important;
+}
+
+.faq .card p {
+    color: #555576;
+    font-size: 15px;
+    font-family: Averta-bold;
+    line-height: 21px;
+}
+
+.faq .card .card-body p {
+    font-family: Averta-light;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.faq .card-header {
+    padding: 1.75rem 1.25rem 30px;
+    background-color: transparent !important;
+}
+
+.mb-0>a {
+    display: inline-block;
+    position: relative;
+}
+
+.mb-0>a:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: url('../img/plus.png');
+    position: absolute;
+    top: 2px;
+    left: -10px;
+    font-size: 36px;
+    color: #76E9A1;
+}
+
+.mb-0>a[aria-expanded="true"]:after {
+    content: url('../img/minus.png');
+    /* fa-minus-up */
+}
+
+.join {
+    width: 100%;
+    background: url(../img/Path-4.png) no-repeat;
+    /*background-size: 100%, cover;*/
+    background-size: cover;
+        padding-top: 120px;
+    padding-bottom: 100px;
+    /**/
+}
+
+.footer {
+    background-color: #172641;
+    padding: 35px 30px 100px;
+}
+
+.footer a {
+    display: flex;
+    font-size: 14px;
+    color: #EDEEF0;
+    margin-bottom: 18px;
+}
+
+.footer-bottom {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    z-index: 999;
+}
+
+.footer p,
+.footer-bottom p {
+    font-size: 14px;
+    color: #CCCFD5;
+    padding: 10px 100px 10px 0px;
+}
+
+.footer-bottom span {
+    color: #76E9A1;
+}
+
+.footer-bottom p {
+    margin-left: 15px;
+    font-family: Averta-semibold;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.single-pricing-box.middle{
+    top: -10px;
+}
+
+.prospects-text h2{
+    color: #525274;
+    font-family: Averta-bold;
+    margin-bottom: 30px;
+}
+
+.footer-bottom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.footer-bottom a {
+    color: #76e9a1;
+}
+
+.footer-bottom-btn button {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 40px;
+}
+
+.innfooter{
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px 15px 15px 5px;
+}
+
+.f-bg{
+    background-color: #525274;
+}
+
+.prospects-text p{
+    color: #525274;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.qualified-area h1{
+    color: #525274;
+    font-size: 3em;
+    font-family: Averta-bold;
+}
+
+.owl-carousel{
+    padding: 50px 0px;
+}
+
+.btn-apply-now{
+    padding: 15px 40px;
+    background: #76E9A1;
+    border-radius: 30px;
+    font-family: Averta-bold;
+    color: #fff !important;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.expect h1{
+    color: #525274;
+    font-size: 3em;
+    font-family: Averta-bold;
+}
+
+.expect-single p{
+    font-family: Averta-bold;
+    font-size: 18px;
+}
